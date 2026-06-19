@@ -68,6 +68,4 @@ Train/Test split: 80/20, random_state=2
 
 Eleven classifiers were evaluated on precision and accuracy:
 
-ModelNotesMultinomial Naive Bayes✅ Selected for deploymentBernoulli Naive BayesGaussian Naive BayesLogistic RegressionL1 penalty, liblinearSVMSigmoid kernelK-Nearest NeighborsDecision Treemax_depth=5Random Forest50 estimatorsAdaBoost50 estimatorsBagging Classifier50 estimatorsExtra Trees50 estimatorsGradient Boosting50 estimatorsXGBoost50 estimators
-
 MultinomialNB was selected as the final model based on its high precision (minimizing false positives is critical for spam detection).
